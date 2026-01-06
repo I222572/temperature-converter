@@ -1,5 +1,10 @@
 const converter = require('./converter');
 
+//jenkins
+xdg-open http://localhost:8080
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+
 test('Celsius to Fahrenheit', () => {
     expect(converter.celsiusToFahrenheit(0)).toBe(32);
 });
